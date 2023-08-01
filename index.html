@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <div class="header overlay">
+        <h1>our library</h1>
+    </div>
+    
+    <div class="main-content">
+        <div class="top overlay">
+            <button id="add">+Add Book</button>
+        </div>
+        <div class="cards overlay">
+
+        </div>
+        <div class="form-popup">
+            <form action="" method="post" class="form-container ">
+
+                <div> Add New Book </div>
+                <div class="title">
+                <label for="book-title">Book title</label>
+                <input type="text" id="book-title">
+                </div>
+
+                <div>
+                <label for="author">Author</label>
+                <input type="text" id="author">
+                </div>
+
+                <div>
+                <label for="page-number">Page Number</label>
+                <input type="number" min="0" id="page-number">
+                </div>
+
+                <div>
+
+                <label for="read-status">Read</label>
+
+                <input type="radio" id="read" name="read-status" value="read">
+                <label for="read">Yes</label>
+
+                <input type="radio" id="unread" name="read-status" value="unread">
+                <label for="unread">No</label>
+                </div>
+                <button class="submit" type="submit"> Submit </button>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
